@@ -1,0 +1,93 @@
+<resources>
+    <!-- Name for the application [CHAR LIMIT=12] -->
+    <string name="app_name">Boardgames Inventory App</string>
+
+    <!-- Title for the activity to add a new game [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_new_game">Add a Game</string>
+
+    <!-- Labels in the Catalog Activity to insert and delete games data [CHAR LIMIT=20] -->
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+    <string name="action_delete_all_entries">Delete All Games</string>
+
+    <!-- Labels in the Editor Activity to save, edit and delete a game and leave editor [CHAR LIMIT=20] -->
+    <string name="editor_action_save">Save</string>
+    <string name="editor_action_delete">Delete</string>
+    <string name="editor_activity_title_edit_game">Edit Game</string>
+
+    <!-- Toast messages in the Editor Activity when a new game has been successfully or failed to be inserted-->
+    <string name="editor_insert_game_successful">Game saved</string>
+    <string name="editor_insert_game_failed">Error with saving game</string>
+
+    <!-- Toast message in the Editor Activity when a new game has been successfully or failed to be saved-->
+    <string name="editor_update_game_successful">Game updated</string>
+    <string name="editor_update_game_failed">Error with updating game</string>
+
+    <!-- Toast message in the Editor Activity when a new game has been successfully or failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_game_successful">Game deleted</string>
+    <string name="editor_delete_game_failed">Error with deleting game</string>
+
+    <!-- Toast message in the Editor Activity that appears when all or some fields are left blank -->
+    <string name="fill_empty_fields">Fill empty fields</string>
+    <string name="introduce_game_title">Introduce the game title</string>
+    <string name="introduce_game_price">Introduce the game price</string>
+    <string name="introduce_game_quantity">Introduce the game quantity</string>
+    <string name="introduce_supplier_name">Introduce the supplier\'s name</string>
+    <string name="introduce_supplier_contacts">Introduce the supplier phone number</string>
+
+    <!-- Title and Subtitle texts for the empty view [CHAR LIMIT=50] -->
+    <string name="empty_view_title_text">Your stock is empty!</string>
+    <string name="empty_view_subtitle_text">Please press the add button \n and fill the blank fields</string>
+
+    <!-- Labels for Main Categories of Attributes in the Editor Activity-->
+    <string name="editor_overview">Overview</string>
+    <string name="editor_category">Category</string>
+    <string name="editor_quantity">Quantity</string>
+    <string name="editor_supplier_name">Supplier</string>
+    <string name="editor_supplier_phone_number">Supplier Contacts</string>
+
+    <!-- Text hints for the various fields in the editor [CHAR LIMIT=30] -->
+    <string name="hint_product_name">Title</string>
+    <string name="hint_price">Price</string>
+    <string name="unit_price">€</string>
+    <string name="hint_supplier_name">Name</string>
+    <string name="hint_supplier_phone_number">Phone Number</string>
+    <string name="hint_quantity">Quantity</string>
+
+    <!-- Labels for dropdown menu Game's Category, whose options are Party Game, American, German or Other-->
+    <string name="category_other">Other</string>
+    <string name="category_party_game">Party Game</string>
+    <string name="category_american">American</string>
+    <string name="category_german">German</string>
+
+    <!-- Strings for sanity checks in case of invalid quantity amount -->
+    <string name="empty_forbidden">Quantity must have a a value</string>
+    <string name="less_than_one_forbidden">Quantity can\'t be lower than one</string>
+
+    <!-- Strings for the Alert dialogue in case of editing an item [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Strings for the Alert dialogue in case of deleting an item [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">Delete this boardgame?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Strings for displaying the quantity -->
+    <string name="on_stock">On stock: </string>
+    <string name="item">item</string>
+    <string name="items">items</string>
+
+    <!-- Strings for displaying the price -->
+    <string name="currency">€</string>
+    <string name="complete_price">,00</string>
+    <string name="enter_price">Enter the price please</string>
+
+    <!-- Content descriptions for Buttons and ImageButtons -->
+    <string name="order_button">Button for ordering a boardgame</string>
+    <string name="arrow_increase">Button for increasing the game\'s quantity</string>
+    <string name="arrow_decrease">Button for decreasing the game\'s quantity</string>
+    <string name="call_button">Button for calling the game\'s supplier</string>
+    <string name="empty_shelter_description">TextView used in case of empty database</string>
+
+</resources>

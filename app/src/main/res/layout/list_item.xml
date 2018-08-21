@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Layout for a single list item in the list of games -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height"
+    android:orientation="horizontal"
+    android:padding="@dimen/list_item_padding">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/name"
+            style="@style/list_item_name"
+            tools:text="Dixit" />
+
+        <TextView
+            android:id="@+id/game_quantity"
+            style="@style/list_item_quantity"
+            tools:text="On stock: 7 games" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/game_price"
+        style="@style/list_item_price"
+        tools:text="€ 25" />
+
+    <Button
+        android:id="@+id/sale_button"
+        style="@style/list_item_sale_button"
+        android:contentDescription="@string/order_button" />
+</LinearLayout>

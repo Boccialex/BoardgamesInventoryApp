@@ -1,0 +1,168 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Editor Activity Theme -->
+    <style name="EditorTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/editorColorPrimary</item>
+        <item name="colorPrimaryDark">@color/editorColorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Style for a category in the editor -->
+    <style name="CategoryStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+    </style>
+
+    <!-- Style for an EditText field in the editor -->
+    <style name="EditorFieldStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+    <!-- Style for the Price units for an EditText field in the editor -->
+    <style name="EditorUnitsStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+    </style>
+
+    <!-- Style for TextViews and the Button in list_item.xml -->
+    <style name="list_item_name">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name=" android:fontFamily">sans-serif-medium</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">@color/listItemColorPrimary</item>
+    </style>
+
+    <style name="list_item_quantity">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textColor">@color/listItemSecondaryColor</item>
+    </style>
+
+    <style name="list_item_price">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textColor">@color/listItemColorPrimary</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="list_item_sale_button">
+        <item name="android:layout_height">24dp</item>
+        <item name="android:layout_width">24dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name=" android:layout_marginBottom">4dp</item>
+        <item name="android:layout_marginEnd">4dp</item>
+        <item name="android:background">@drawable/ic_buy_icon</item>
+        <item name="android:focusable">false</item>
+    </style>
+
+    <!-- Style for the Spinner and ImageButtons in the activity_editor.xml -->
+    <style name="editor_spinner_category">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:spinnerMode">dropdown</item>
+    </style>
+
+    <style name="editor_increase_image_button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/ic_increase</item>
+        <item name="android:backgroundTint">@color/colorPrimary</item>
+        <item name="android:layout_marginRight">8dp</item>
+    </style>
+
+    <style name="editor_decrease_image_button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_toRightOf">@+id/edit_quantity</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:backgroundTint">@color/colorPrimary</item>
+        <item name="android:src">@drawable/ic_decrease</item>
+    </style>
+
+    <style name="editor_call_image_button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_toRightOf">@+id/edit_supplier_phone_number</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:src">@drawable/ic_call</item>
+    </style>
+
+    <!-- Style for Views and FAB Button in the activity_catalog.xml -->
+    <style name="catalog_list_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">@dimen/activity_margin</item>
+    </style>
+
+    <style name="catalog_empty_shelter">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:src">@drawable/ic_empty_shelves</item>
+    </style>
+
+    <style name="catalog_empty_title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@+id/empty_shelter_image</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:paddingTop">@dimen/activity_margin</item>
+        <item name="android:text">@string/empty_view_title_text</item>
+        <item name="android:textColor">@color/listItemColorPrimary</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+    <style name="catalog_empty_subtitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@+id/empty_title_text</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:text">@string/empty_view_subtitle_text</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textColor">@color/listItemSecondaryColor</item>
+    </style>
+
+    <style name="catalog_fab_button">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_margin">@dimen/fab_margin</item>
+        <item name="android:background">@drawable/fab</item>
+        <item name="android:src">@drawable/ic_add_game</item>
+    </style>
+</resources>
